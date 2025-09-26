@@ -1,0 +1,14 @@
+# Core Web Framework and Server
+fastapi
+uvicorn
+
+#File Upload Handling
+python-multipart
+
+#Data Analysis and Scientific Computing
+pandas
+numpy
+scipy
+
+#PDF Generation
+reportlab
