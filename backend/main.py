@@ -1,4 +1,3 @@
-from backend.utils.label_generator import generate_label
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -6,7 +5,7 @@ import pandas as pd
 import io
  
 # Import the updated analysis and PDF functions
-from utils.label_generator import analyze_dataset_expanded, generate_pdf_label
+from backend.utils.label_generator import analyze_dataset_expanded, generate_pdf_label
  
 app = FastAPI()
  
