@@ -1,3 +1,4 @@
+from utils.label_generator import generate_label
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
